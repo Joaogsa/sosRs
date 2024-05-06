@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap.min.css">
+    <title>SOS-RS</title>
+
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        .fig1{
+            position:fixed;
+            width: 100%;
+            height: 100%;
+            background-position: top right;
+            background-image: url('./assets/images/fig1.png');
+            background-repeat: no-repeat;
+            background-size: 50%;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .fig2{
+            position:fixed;
+            z-index: 1;
+            bottom:0;
+            left:0;
+            width: 100vw;
+            height: 100vh; 
+            background-position: left bottom;
+            background-image: url('./assets/images/fig2.png');
+            background-size: 50%;
+            background-repeat: no-repeat;
+        }
+
+        .bg-image{
+            background-image: url('./assets/images/image1.png');
+            background-color: #ffffff6d; 
+            background-size: cover;
+            background-repeat: no-repeat
+        }
+        .overlay{
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100vh;
+            background-color: #ffffffe6;
+        }
+
+        
+
+        .color1{
+            color:#36D1A5 !important
+        }
+        .color2{
+            color:#05775F !important
+        }
+        footer{
+            padding: 2rem;
+            text-align: center;
+            position: fixed;
+            bottom:0;
+            margin:0 auto;
+            display: block;
+            width: 100vw;
+            
+        }
+        footer a:visited, a:hover {
+            color:#fff !important
+        }
+        a{
+            text-decoration: none;
+        }
+        .description{
+            width: 80%;
+            font-size:1.5rem
+        }
+        .mail{
+            color:#000;
+            text-decoration: none;
+            font-size:1.5rem
+        }
+        .content{
+            position: relative;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body class="bg-image vw-100 ">
+    
+    <span class="overlay"></span>
+    <div class="fig1"></span>
+        <div class="fig2"></span>
+    
+    <section class="">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                    <h1 class="pt-4">
+                        <img src="./assets/images/logo.png" alt="">
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container content">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-9 align-self-center ">
+                    <div class="box-text text-center mt-5 d-flex justify-content-center align-items-center flex-column">
+                        <h1 class="title text-center text-uppercase color1">Em breve</h1>
+                        <h2 class="subtitle text-center mx-auto">Sistema voluntário para contribuições ao Rio Grande do Sul</h2>
+                        <p class="description  text-center mx-autop-2">Aqui você encontrará locais para abrigos que estão no auxílio direto recebendo doações e cuidando das pessoas e mais.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="mailto:contato@sosrs.ong.br">
+                            <p class="mail text-uppercase">contato@sosrs.ong.br</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="row d-none">
+                    <div class="col-12">
+                        <a href="#">
+                            
+                            <p class="social-media color2">
+                                Acompanhe nas redes sociais
+                            <img src="./assets/images/InstagramLogo.png" alt="logomarca do instagram">
+                            </p>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script scrc="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
